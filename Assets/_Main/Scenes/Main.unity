@@ -234,7 +234,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f54a069018ffb4b44b45f66ef5ff5061, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61a223aa746ebd940b747b36caaccece, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1015,7 +1015,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1307,7 +1307,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 986024384}
-  - {fileID: 1097100028}
   m_Father: {fileID: 2063476341}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1340,6 +1339,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a2a248186f7a3d439aee5f448835fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bookPagePrefab: {fileID: 5321191846724437742, guid: 7835db4fb78373e47b3b27d1acb90597,
+    type: 3}
+  frontPage: {fileID: 986024383}
   coverImage: {fileID: 554760388}
   titleText: {fileID: 324664944}
   descText: {fileID: 1720443374}
@@ -2603,6 +2605,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainBookPage: {fileID: 2063476340}
   bookSprites_0:
+  - {fileID: 21300000, guid: 61a223aa746ebd940b747b36caaccece, type: 3}
+  - {fileID: 21300000, guid: c2ba299a3f70c904b91223f76b7c4396, type: 3}
+  - {fileID: 21300000, guid: c825c857e90964c468557f80b1149a6f, type: 3}
+  - {fileID: 21300000, guid: db9e5014840f0984182443da01828d49, type: 3}
+  - {fileID: 21300000, guid: 73f1e2c25df881c4092a8c0bfee15436, type: 3}
+  - {fileID: 21300000, guid: 6a5831b923406bb4a9b3c126083fe883, type: 3}
+  - {fileID: 21300000, guid: 771282f4c5793884f94ce0be57095069, type: 3}
+  - {fileID: 21300000, guid: bc9c8ca907211bd40a13158de588dfea, type: 3}
+  - {fileID: 21300000, guid: 2f9152aaa953f014d9cf6205bc9cc073, type: 3}
+  - {fileID: 21300000, guid: 93e36b3740a875b499a277f44b67b374, type: 3}
+  - {fileID: 21300000, guid: 4e6c17bc8e89dfc4ba4e6893932a4264, type: 3}
+  - {fileID: 21300000, guid: 3012c3d5454f5704d94133285a918681, type: 3}
+  - {fileID: 21300000, guid: 9b61abc2252bdc147b2040ba33c470d6, type: 3}
+  - {fileID: 21300000, guid: b05a606368a1a4e46854ce92d2cb13b7, type: 3}
+  - {fileID: 21300000, guid: 8f3c858526ac2a24fbbb703d0ce30132, type: 3}
+  - {fileID: 21300000, guid: cd76e6b3723adcd489c60b408c8d58f8, type: 3}
+  - {fileID: 21300000, guid: 4cfc9292a6c40384aab22dda16a6d3e6, type: 3}
+  - {fileID: 21300000, guid: 894ec26ba8c0b7a408f752328827c327, type: 3}
+  - {fileID: 21300000, guid: 96a358aab8d4d684786733aa01c8cca8, type: 3}
+  - {fileID: 21300000, guid: 9973d410c047ad941b97d1a37c651e74, type: 3}
+  - {fileID: 21300000, guid: 5dec2acdf59f0704fa4a46413f8ad830, type: 3}
+  - {fileID: 21300000, guid: 0b0a70072b71c13429e03e89ecce0095, type: 3}
+  - {fileID: 21300000, guid: 16178fdc5be88b448baa2247c7c96cc9, type: 3}
+  - {fileID: 21300000, guid: 467448a757234c24c87d23e779e3be2f, type: 3}
+  - {fileID: 21300000, guid: 5ca7a4809c3f01d4c992bc9f53c89813, type: 3}
+  - {fileID: 21300000, guid: eb721328d070b7942a73dedfd8a5d61e, type: 3}
+  - {fileID: 21300000, guid: 74e73e25f92721f4aa6dccd820d825d0, type: 3}
+  bookSprites_1:
   - {fileID: 21300000, guid: f54a069018ffb4b44b45f66ef5ff5061, type: 3}
   - {fileID: 21300000, guid: f81baaf66d9cb354e82da488f1f6192f, type: 3}
   - {fileID: 21300000, guid: b908c4f495d387143bdb0114f9b05730, type: 3}
@@ -2617,7 +2647,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e8f90b8de4d0569409d2affe10cb217e, type: 3}
   - {fileID: 21300000, guid: 7e5d9978a5c609a4b98c479ba810c553, type: 3}
   - {fileID: 21300000, guid: b95800813e79fbc419e58ee62c91648e, type: 3}
-  bookSprites_1: []
   bookSprites_2: []
   bookSprites_3: []
   bookSprites_4: []
@@ -4956,81 +4985,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!1 &1097100027
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1097100028}
-  - component: {fileID: 1097100030}
-  - component: {fileID: 1097100029}
-  m_Layer: 5
-  m_Name: Page_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1097100028
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097100027}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 361910578}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -1520}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1097100029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097100027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f81baaf66d9cb354e82da488f1f6192f, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1097100030
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097100027}
-  m_CullTransparentMesh: 0
 --- !u!1 &1106288975
 GameObject:
   m_ObjectHideFlags: 0

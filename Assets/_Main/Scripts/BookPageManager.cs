@@ -12,7 +12,10 @@ public class BookPageManager : Singleton<BookPageManager>
     private int bookPageIndex;
     private int pageCount;
 
+    [SerializeField] private GameObject bookPagePrefab;
+
     [Header("UI")]
+    [SerializeField] private GameObject frontPage;
     [SerializeField] private Image coverImage;
     [SerializeField] private Text titleText;
     [SerializeField] private Text descText;
@@ -49,8 +52,10 @@ public class BookPageManager : Singleton<BookPageManager>
     }
 
     public void OpenBook(Book openedBook, int openedBookIndex){
+        
         bookIndex = openedBookIndex;
         pageCount = bookSprites.Length;
+        bookPageIndex = 0;
 
         //Set Loved Image
         if(BookManager.Instance.GetBook(bookIndex).GetLoved()){            
@@ -60,6 +65,7 @@ public class BookPageManager : Singleton<BookPageManager>
         }
 
         //Change Front Page Variables
+        frontPage.SetActive(true);
         coverImage.sprite = bookSprites[0];        
         titleText.text = openedBook.GetTitle();
         descText.text = openedBook.GetDescription();
@@ -70,9 +76,16 @@ public class BookPageManager : Singleton<BookPageManager>
         ageRangeText.text = openedBook.GetAgeRange();
         publisherText.text = openedBook.GetPublisher();
 
-        for (int i = 1; i < bookSprites.Length; i++)
+        //Destroy previous bookPage
+        for (int i = 1; i < transform.childCount; i++)
         {
-            GameObject newPage = Instantiate(transform.GetChild(1).gameObject, transform);
+            Destroy(transform.GetChild(i).gameObject);
+        }
+
+        //Instantiate bookPage
+        for (int i = 0; i < bookSprites.Length; i++)
+        {
+            GameObject newPage = Instantiate(bookPagePrefab, transform);
             newPage.GetComponent<Image>().sprite = bookSprites[i];
             newPage.name = "Page_" + i;
         }

@@ -52,6 +52,7 @@ public class BookManager : Singleton<BookManager>
                 break;
         }
 
+        //
         BookPageManager.Instance.SetBookSprites(tempBookSprites);
 
         //Open Book
@@ -59,7 +60,13 @@ public class BookManager : Singleton<BookManager>
     }
 
     void AssignBooks(){
-        books.Add(new Book("Sholat Ali",
+
+        books.Add(new Book("ABC Ayo Belajar Membaca",
+         "Kumpulan bentuk-bentuk huruf Alphabet beserta contohnya" ,
+         "Nasir Nugroho", "Teman Januar", "5-10", "27", "5-13", "PIKO")
+         );
+
+        books.Add(new Book("Belajar Sholat Bersama Ali",
          "Buku belajar sholat, mengenalkan anak gerakan-gerakan dasar sholat" ,
          "Teman Januar", "Teman Januar", "5-10", "13", "5-13", "Teman Januar")
          );
