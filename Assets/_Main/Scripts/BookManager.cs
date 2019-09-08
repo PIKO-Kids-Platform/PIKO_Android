@@ -63,12 +63,17 @@ public class BookManager : Singleton<BookManager>
 
         books.Add(new Book("ABC Ayo Belajar Membaca",
          "Kumpulan bentuk-bentuk huruf Alphabet beserta contohnya" ,
-         "Nasir Nugroho", "Teman Januar", "5-10", "27", "5-13", "PIKO")
+         "Nasir Nugroho", "Nasir Nugroho", "5-10", "27", "2-5", "PIKO")
          );
 
         books.Add(new Book("Belajar Sholat Bersama Ali",
          "Buku belajar sholat, mengenalkan anak gerakan-gerakan dasar sholat" ,
-         "Teman Januar", "Teman Januar", "5-10", "13", "5-13", "Teman Januar")
+         "Bilal Surya", "Bilal Surya", "5-10", "13", "7-11", "PIKO")
+         );
+
+         books.Add(new Book("Mengenal Banyak Hewan",
+         "Ayo mengenal nama-nama hewan!" ,
+         "Nasir Nugroho", "Nasir Nugroho", "5-10", "30", "2-7", "PIKO")
          );
     }
 

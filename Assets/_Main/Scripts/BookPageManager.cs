@@ -85,9 +85,13 @@ public class BookPageManager : Singleton<BookPageManager>
         //Instantiate bookPage
         for (int i = 0; i < bookSprites.Length; i++)
         {
+            if(i == 0){
+                // newPage.GetComponent<Image>().SetNativeSize();
+            }
             GameObject newPage = Instantiate(bookPagePrefab, transform);
             newPage.GetComponent<Image>().sprite = bookSprites[i];
             newPage.name = "Page_" + i;
+
         }
         
     }

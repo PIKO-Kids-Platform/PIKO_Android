@@ -2647,7 +2647,38 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e8f90b8de4d0569409d2affe10cb217e, type: 3}
   - {fileID: 21300000, guid: 7e5d9978a5c609a4b98c479ba810c553, type: 3}
   - {fileID: 21300000, guid: b95800813e79fbc419e58ee62c91648e, type: 3}
-  bookSprites_2: []
+  bookSprites_2:
+  - {fileID: 21300000, guid: bc0fbdf36ee84c846adc8c5389c94987, type: 3}
+  - {fileID: 21300000, guid: 1d65b3bec55f41d41944701f97a8f323, type: 3}
+  - {fileID: 21300000, guid: 2c3c8a957dbb87b489a3d137263c09be, type: 3}
+  - {fileID: 21300000, guid: 4917c61b25ae6fb4e85e3b81869da417, type: 3}
+  - {fileID: 21300000, guid: f7f0e6ae419ee74439f8d6b84c11bcc2, type: 3}
+  - {fileID: 21300000, guid: d1b0c3c0cb323f84b8287364db4ed565, type: 3}
+  - {fileID: 21300000, guid: b81a18eabb4c7b34faf8a2f380b5547b, type: 3}
+  - {fileID: 21300000, guid: 0e431d0acbf75414cadde3615d428b32, type: 3}
+  - {fileID: 21300000, guid: fee6999cc66fcef48ba53bb20550ef19, type: 3}
+  - {fileID: 21300000, guid: bbf246782219fa74da26c04875f3079d, type: 3}
+  - {fileID: 21300000, guid: 870fdbcce40d9b341bc2dc411bdaac63, type: 3}
+  - {fileID: 21300000, guid: d06ae7df431bcb64297da82b666c70a9, type: 3}
+  - {fileID: 21300000, guid: db00fa134b8d6e548abb1f75e75c2306, type: 3}
+  - {fileID: 21300000, guid: baeb0253e39ed8b47831b6ec4e67f7ba, type: 3}
+  - {fileID: 21300000, guid: 0cfe4146416243e4b8af01f1ed922d56, type: 3}
+  - {fileID: 21300000, guid: 238f0125c6c7cc74db81b4e9c72c0ed9, type: 3}
+  - {fileID: 21300000, guid: dcf21c49ff146ad46803ceb0dd9de15a, type: 3}
+  - {fileID: 21300000, guid: 153ba9dab3622344b9452a5a8f896e70, type: 3}
+  - {fileID: 21300000, guid: 0b58535e93b240f4c80805494f77bc24, type: 3}
+  - {fileID: 21300000, guid: 371951c8eed917e45bbfc44f649bcc27, type: 3}
+  - {fileID: 21300000, guid: 568a7e6fec272364bbd7f73e9cd133d3, type: 3}
+  - {fileID: 21300000, guid: 787d68df66408454bbd6ac6aa06f22a7, type: 3}
+  - {fileID: 21300000, guid: eaae0d228d8180c409dfbee6b59a987f, type: 3}
+  - {fileID: 21300000, guid: 69edc99cbac970344bbb96e69fee5e58, type: 3}
+  - {fileID: 21300000, guid: 3f451a0a5fae8e54392873bf94c5f2a7, type: 3}
+  - {fileID: 21300000, guid: 942b1c5fbcf544c49875706dec4e951c, type: 3}
+  - {fileID: 21300000, guid: 9acf0ecbe82ea0745a52229375208d24, type: 3}
+  - {fileID: 21300000, guid: 79b3901bc04f39d4db5a55c4e2787734, type: 3}
+  - {fileID: 21300000, guid: 40bdf95c69f6bf84a8219752bebc00a8, type: 3}
+  - {fileID: 21300000, guid: c8ca0ef0d34ee974aa173328f8393ffc, type: 3}
+  - {fileID: 21300000, guid: 0e3835dcda787c64cb6fe09925472679, type: 3}
   bookSprites_3: []
   bookSprites_4: []
   bookSprites_5: []
@@ -5668,7 +5699,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -5695,7 +5726,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f54a069018ffb4b44b45f66ef5ff5061, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc0fbdf36ee84c846adc8c5389c94987, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
